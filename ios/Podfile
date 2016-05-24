@@ -1,0 +1,13 @@
+# The target name is most likely the name of your project.
+target 'NumberTileGame' do
+
+  # Your 'node_modules' directory is probably in the root of your project,
+  # but if not, adjust the `:path` accordingly
+  pod 'React', :path => '../node_modules/react-native', :subspecs => [
+    'Core',
+    'RCTText',
+    'RCTWebSocket', # needed for localhost testing of your app
+    # Add any other subspecs you want to use in your project
+  ]
+
+end
