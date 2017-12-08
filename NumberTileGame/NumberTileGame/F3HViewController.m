@@ -15,6 +15,10 @@
 
 @implementation F3HViewController
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+}
+
 - (IBAction)playGameButtonTapped:(id)sender {
     F3HNumberTileGameViewController *c = [F3HNumberTileGameViewController numberTileGameWithDimension:4
                                                                                          winThreshold:2048
