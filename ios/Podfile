@@ -12,6 +12,7 @@ target 'NumberTileGame' do
     'Core',
     'DevSupport', # Include this to enable In-App Devmenu if RN >= 0.43
     'RCTText',
+    'RCTImage',
     'RCTNetwork',
     'RCTWebSocket', # needed for debugging
     'BatchedBridge',

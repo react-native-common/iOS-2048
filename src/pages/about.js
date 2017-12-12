@@ -1,12 +1,13 @@
 import React from 'react';
-import {AppRegistry, StyleSheet, Text, View} from 'react-native';
+import {AppRegistry, StyleSheet, Text, View, Image, SafeAreaView} from 'react-native';
 
 class About extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.highScoresTitle}>This is About</Text>
-      </View>
+      <SafeAreaView style={styles.container}>
+        <Text style={styles.highScoresTitle}>This is About...</Text>
+        <Image style={{flex:1, width: 375, resizeMode: 'contain'}} source={require('../../screenshots/dog.jpg')} />
+      </SafeAreaView>
     );
   }
 }
@@ -22,6 +23,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     textAlign: 'center',
     margin: 10,
+    height: 20
   },
 });
 
