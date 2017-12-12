@@ -14,12 +14,28 @@ PODS:
   - boost/preprocessor-includes (1.59.0)
   - boost/shared_ptr-includes (1.59.0)
   - boost/string_algorithms-includes (1.59.0)
+  - CodePush (5.2.1):
+    - CodePush/Base64 (= 5.2.1)
+    - CodePush/Core (= 5.2.1)
+    - CodePush/JWT (= 5.2.1)
+    - CodePush/SSZipArchive (= 5.2.1)
+    - React
+  - CodePush/Base64 (5.2.1):
+    - React
+  - CodePush/Core (5.2.1):
+    - React
+  - CodePush/JWT (5.2.1):
+    - React
+  - CodePush/SSZipArchive (5.2.1):
+    - React
   - DoubleConversion (1.1.5)
   - Folly (2016.09.26.00):
     - boost
     - DoubleConversion
     - GLog
   - GLog (0.3.4)
+  - React (0.51.0):
+    - React/Core (= 0.51.0)
   - React/BatchedBridge (0.51.0):
     - React/Core
     - React/cxxreact_legacy
@@ -45,6 +61,7 @@ PODS:
   - yoga (0.51.0.React)
 
 DEPENDENCIES:
+  - CodePush (from `../node_modules/react-native-code-push`)
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - GLog (from `../node_modules/react-native/third-party-podspecs/GLog.podspec`)
@@ -57,6 +74,8 @@ DEPENDENCIES:
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 EXTERNAL SOURCES:
+  CodePush:
+    :path: ../node_modules/react-native-code-push
   DoubleConversion:
     :podspec: ../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec
   Folly:
@@ -70,12 +89,13 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   boost: 30a15ffb6d9aa4646dd3caffc960753f4cb4ca4e
+  CodePush: 9400969397b340ee26772b79fcadd1a48a0449dc
   DoubleConversion: ebb6747c5b66026ad4f97b789c3ceac6f18e57a6
   Folly: b7255b29f1d693c375d642d0f04f0592181156d9
   GLog: 3e4e4ae9746ce6bf6e9420c7fc1e08ad59c8ba1a
   React: 352f02f1db6e4744f9a758527e13e3fdefbbd6ba
   yoga: b5d96400ca8b2936965a7a6516da7c1177f432a3
 
-PODFILE CHECKSUM: c51dd3a0d99b43bfd23283721d3b87587318999d
+PODFILE CHECKSUM: 199dc7135f3eb7e97c23b2ccec6488e3935297e4
 
 COCOAPODS: 1.3.1

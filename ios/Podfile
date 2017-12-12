@@ -24,6 +24,9 @@ target 'NumberTileGame' do
   pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
   pod 'GLog', :podspec => '../node_modules/react-native/third-party-podspecs/GLog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+  
+  pod 'CodePush', :path => '../node_modules/react-native-code-push'
+
 
   target 'NumberTileGameTests' do
     inherit! :search_paths

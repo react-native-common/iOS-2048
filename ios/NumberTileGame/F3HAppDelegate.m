@@ -8,6 +8,7 @@
 
 #import "F3HAppDelegate.h"
 #import <React/RCTBundleURLProvider.h>
+#import <CodePush/CodePush.h>
 
 @implementation F3HAppDelegate
 
@@ -49,7 +50,8 @@
 - (NSURL *)sourceURLForBridge:(RCTBridge *)bridge {
     NSURL *jsCodeLocation;
     
-    jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
+//    jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
+    jsCodeLocation = [CodePush bundleURL];
     return jsCodeLocation;
 }
 
