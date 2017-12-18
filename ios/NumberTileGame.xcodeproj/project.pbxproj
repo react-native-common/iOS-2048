@@ -36,6 +36,7 @@
 		1A92D000191A016600E35C6C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A92CFFF191A016600E35C6C /* QuartzCore.framework */; };
 		53AD5FB1516C12877180252F /* libPods-NumberTileGame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBF84B47BD667BDF5B1CA99 /* libPods-NumberTileGame.a */; };
 		8976809A137644630AAA033C /* libPods-NumberTileGameTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCE17010DE23B63FF303ED2 /* libPods-NumberTileGameTests.a */; };
+		F92B2FC21FE7AD5200ABE5D7 /* F3HNativeRNRouterModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F92B2FC11FE7AD5200ABE5D7 /* F3HNativeRNRouterModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,8 @@
 		ABBF84B47BD667BDF5B1CA99 /* libPods-NumberTileGame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NumberTileGame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A8AC0F428B43F2EB01D3A4 /* Pods-NumberTileGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberTileGameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NumberTileGameTests/Pods-NumberTileGameTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BFA8CBC2A9C4949469CE6635 /* Pods-NumberTileGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberTileGameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NumberTileGameTests/Pods-NumberTileGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		F92B2FC01FE7AD5200ABE5D7 /* F3HNativeRNRouterModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = F3HNativeRNRouterModule.h; sourceTree = "<group>"; };
+		F92B2FC11FE7AD5200ABE5D7 /* F3HNativeRNRouterModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F3HNativeRNRouterModule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +182,8 @@
 				1A3487F218DEBADA00D021C3 /* F3HNumberTileGameViewController.m */,
 				1A3487F418DEBB9C00D021C3 /* F3HTileAppearanceProvider.h */,
 				1A3487F518DEBB9C00D021C3 /* F3HTileAppearanceProvider.m */,
+				F92B2FC01FE7AD5200ABE5D7 /* F3HNativeRNRouterModule.h */,
+				F92B2FC11FE7AD5200ABE5D7 /* F3HNativeRNRouterModule.m */,
 			);
 			path = NumberTileGame;
 			sourceTree = "<group>";
@@ -492,6 +497,7 @@
 				1A34882518E169AA00D021C3 /* F3HScoreView.m in Sources */,
 				1A34882818E1713E00D021C3 /* F3HControlView.m in Sources */,
 				1A34880318E1465D00D021C3 /* F3HMoveOrder.m in Sources */,
+				F92B2FC21FE7AD5200ABE5D7 /* F3HNativeRNRouterModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
